@@ -22,6 +22,7 @@
 Имя: Jhon
 Фамилия: Smith
 Телефон: +71234567809
+В избранных: нет
 Дополнительная информация:
 	 telegram : @jhony
 	 email : jhony@smith.com
