@@ -84,5 +84,5 @@ class Config:
             except Exception:
                 pass
         if not result:
-            result = 'C:'
+            result = '/'
         return result
