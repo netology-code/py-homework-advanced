@@ -84,5 +84,5 @@ class Config:
             except Exception:
                 pass
         if not result:
-            result = '/'
+            raise EnvironmentError('Operation system is not Windows')
         return result
