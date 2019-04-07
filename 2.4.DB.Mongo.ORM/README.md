@@ -33,7 +33,7 @@ def read_data(csv_file, db):
 
 def find_cheapest(db):
     """
-    Найти самые дешевые билеты
+    Отсортировать билеты из базы по возрастания цены
     Документация: https://docs.mongodb.com/manual/reference/method/cursor.sort/
     """
 
