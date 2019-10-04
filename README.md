@@ -2,9 +2,9 @@
 
 ## Блок 1. Профессиональная работа с Python.
 1.1 [Import. Module. Package](1.1.Import.Module.Package/)  
-1.2 [Iterators. Generators. Yield](1.2.Iterators.Generators.Yield/)  
+1.2 [Function2.0.args.kwargs](1.2.Function2.0.args.kwargs/)  
 1.3 [Decorators](1.3.Decorators/)  
-1.4 [Function2.0.args.kwargs](1.4.Function2.0.args.kwargs/)  
+1.4 [Iterators. Generators. Yield](1.4.Iterators.Generators.Yield/)  
 1.5 [Zen of Python - что должен знать каждый разработчик / PEP8 и PEP](1.5.Pep8/)  
 
 ## Блок 2. Применение Python на практике.
