@@ -1,6 +1,17 @@
 # Домашнее задание к лекции 2.1 «Функции — использование встроенных и создание собственных»
-import os
 import json
+import os
+
+
+def update_date():
+    current_path = str(os.path.dirname(os.path.abspath(__file__)))
+    f_directories = os.path.join(current_path, 'fixtures/directories.json')
+    f_documents = os.path.join(current_path, 'fixtures/documents.json')
+    with open(f_documents, 'r') as out_docs:
+        documents = json.load(out_docs)
+    with open(f_directories, 'r') as out_dirs:
+        directories = json.load(out_dirs)
+    return directories, documents
 
 
 def check_document_existance(user_doc_number):
@@ -163,13 +174,6 @@ def secretary_program_start():
             break
 
 
+directories, documents = update_date()
 if __name__ == '__main__':
-    current_path = str(os.path.dirname(os.path.abspath(__file__)))
-    f_directories = os.path.join(current_path, 'fixtures/directories.json')
-    f_documents = os.path.join(current_path, 'fixtures/documents.json')
-    with open(f_documents, 'r') as out_docs:
-        documents = json.load(out_docs)
-    with open(f_directories, 'r') as out_dirs:
-        directories = json.load(out_dirs)
-
     secretary_program_start()
