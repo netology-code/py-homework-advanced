@@ -5,7 +5,6 @@
 1.2 [Iterators. Generators. Yield](1.2.Iterators.Generators.Yield/)    
 1.3 [Function2.0.args.kwargs](1.3.Function2.0.args.kwargs/)  
 1.4 [Decorators](1.4.Decorators/)  
-1.5 [Zen of Python - что должен знать каждый разработчик / PEP8 и PEP](1.5.Pep8/)  
 
 ## Блок 2. Применение Python на практике.
 2.1 [Tests](2.1.Tests)  
@@ -14,3 +13,4 @@
 2.4.[DateBase.Mongo.ORM](2.4.DB.Mongo.ORM)  
 2.5 [Инструменты для оперативной работы с данными](2.5.Data_analysis1)  
 2.6 [Инструменты для визуализации и изучения данных](2.6.Data_analysis2)  
+2.7 [Подготовка к собеседованию](2.7.Interview/)  
