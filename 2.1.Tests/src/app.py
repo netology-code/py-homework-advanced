@@ -2,6 +2,8 @@
 import json
 import os
 
+directories, documents = {}, []
+
 
 def update_date():
     current_path = str(os.path.dirname(os.path.abspath(__file__)))
@@ -141,6 +143,8 @@ def secretary_program_start():
         'Вас приветствует программа помошник!\n',
         '(Введите help, для просмотра списка поддерживаемых команд)\n'
     )
+    global directories, documents
+    directories, documents = update_date()
     while True:
         user_command = input('Введите команду - ')
         if user_command == 'p':
@@ -174,6 +178,5 @@ def secretary_program_start():
             break
 
 
-directories, documents = update_date()
 if __name__ == '__main__':
     secretary_program_start()
